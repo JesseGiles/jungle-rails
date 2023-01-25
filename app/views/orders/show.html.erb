@@ -21,7 +21,7 @@
         </tr>
       </thead>
       <tbody>
-        <% @order.line_items.each do |item| %>
+        <% @line_items.each do |item| %>
           <%= render 'purchases', product: item.product, quantity: item[:quantity].to_i %>
         <% end %>
       </tbody>
