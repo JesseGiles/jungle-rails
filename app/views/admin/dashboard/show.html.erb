@@ -1,3 +1,4 @@
+<br>
 <h1>Admin Dashboard</h1>
 
 <br>
@@ -15,8 +16,10 @@
 <div class="card">
   <h5 class="card-header">Category information</h5>
   <div class="card-body">
-    <h4>Total categories: <%= @total_categories %></h4>
-    <p class="card-text">View all the products or select by category through the main site linked below</p>
-    <a href="http://localhost:3000/" class="btn btn-primary">Jungle Homepage</a>
+  <h4>Total categories: <%= @total_categories %></h4>
+  <p class="card-text">View product by category</p>
+    <% @categories.each do |category| %>
+    <a href="http://localhost:3000/categories/<%= category.id %>" class="btn btn-primary"><%= category.name %></a>
+    <% end %>
   </div>
 </div>
