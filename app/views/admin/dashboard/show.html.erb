@@ -18,8 +18,6 @@
   <div class="card-body">
   <h4>Total categories: <%= @total_categories %></h4>
   <p class="card-text">View product by category</p>
-    <% @categories.each do |category| %>
-    <a href="http://localhost:3000/categories/<%= category.id %>" class="btn btn-primary"><%= category.name %></a>
-    <% end %>
+  <a href="http://localhost:3000/admin/categories" class="btn btn-primary">List of categories</a>
   </div>
 </div>
