@@ -1,5 +1,22 @@
-<h1>Admin::Dashboard#show</h1>
+<h1>Admin Dashboard</h1>
 
+<br>
+<div class="card">
+  <h5 class="card-header">Product information</h5>
+  <div class="card-body">
+    <h4>Total products: <%= @total_products %></h4>
+    <p class="card-text">You can view/create additional products at the admin page linked below.</p>
+    <a href="http://localhost:3000/admin/products" class="btn btn-primary">List of products</a>
+  </div>
+</div>
 
-<p>Total products: <%= @total_products %>
-<p>Total categories: <%= @total_categories %>
+<br>
+
+<div class="card">
+  <h5 class="card-header">Category information</h5>
+  <div class="card-body">
+    <h4>Total categories: <%= @total_categories %></h4>
+    <p class="card-text">View all the products or select by category through the main site linked below</p>
+    <a href="http://localhost:3000/" class="btn btn-primary">Jungle Homepage</a>
+  </div>
+</div>
