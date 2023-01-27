@@ -47,10 +47,11 @@
       <%= link_to 'About', about_index_path, class:"nav-link" %>
       </li>
       <% if current_user %>
-          <li class="nav-item">Signed in as <%= current_user.name %> | <%= link_to "Logout", '/logout' %><li>
+          <li class="nav-item">Signed in as <%= current_user.email %> | <%= link_to "Logout", '/logout', data: { turboLinks: false } %></li>
         <% else %>
-          <%= link_to 'Login', '/login' %> | <%= link_to 'Signup', '/signup' %>
+        <li class="nav-item"><%= link_to 'Login', '/login' %> | <%= link_to 'Signup', '/signup' %>
         <% end %>
+        </li>
         <li class="nav-item dropdown">
           <a
             class="nav-link dropdown-toggle text-danger"
