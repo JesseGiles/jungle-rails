@@ -1,6 +1,18 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+**Jungle** is a mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example during the **Lighthouse Labs Web Development Bootcamp**. The framework and design were largely provided to us, and additional functionality implemented as part of the project, to teach learning an unfamiliar language in an existing application. Additional functionality that was implemented includes: conditionally rendering 'Add to Cart' or 'Sold Out' on products based on stock levels, an admin dashboard where existing products and categories can be viewed and new ones created (with login security), an order summary on checkout, an about page, user signup/login with authentication, and improved navigation bar layout/functionality. Testing was implemented through RSpec and Cypress.
+
+A stretch goal to include email generation for customers upon checkout (showing their order details) was also completed.
+
+## Screenshots
+
+!["Index"]()
+
+!["Products view"]()
+
+!["Checkout"]()
+
+!["Admin New Product"]()
 
 ## Setup
 
