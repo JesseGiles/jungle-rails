@@ -6,13 +6,13 @@ A stretch goal to include email generation for customers upon checkout (showing 
 
 ## Screenshots
 
-!["Index"]()
+!["Index"](https://github.com/JesseGiles/jungle-rails/blob/master/docs/index.png?raw=true)
 
-!["Products view"]()
+!["Products view"](https://github.com/JesseGiles/jungle-rails/blob/master/docs/products.png?raw=true)
 
-!["Checkout"]()
+!["Checkout"](https://github.com/JesseGiles/jungle-rails/blob/master/docs/checkout.png)
 
-!["Admin New Product"]()
+!["Admin New Product"](https://github.com/JesseGiles/jungle-rails/blob/master/docs/admin_new_product.png?raw=true)
 
 ## Setup
 
